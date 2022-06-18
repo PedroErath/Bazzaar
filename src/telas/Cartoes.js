@@ -9,8 +9,8 @@ import {
 export default class Cartoes extends Component {
     render() {
         return (
-            <View>
-                <Text>ACEITAMOS:</Text>
+            <View style={estilo.View}>
+                <Text style={estilo.texto}>ACEITAMOS:</Text>
                 <View style={estilo.viewLinks}>
                     <Image source={require('../images/visa.png')} style={estilo.imagemLinks} />
                     <Image source={require('../images/Elo.png')} style={estilo.imagemLinks} />
@@ -33,5 +33,15 @@ const estilo = StyleSheet.create({
         height: 50,
         width: 50,
         borderRadius: 10
+    },
+    View: {
+        flex: 1,
+        backgroundColor: '#889C9B',
+    },
+    viewLinks: {
+        flexDirection: 'row',
+        margin: 15,
+        justifyContent: 'space-around',
+        padding: 10
     },
 })
