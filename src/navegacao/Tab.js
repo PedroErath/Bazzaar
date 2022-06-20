@@ -21,7 +21,7 @@ export default props => (
             component={Home}
             options={{
                 tabBarIcon: ({ color, size }) => (
-                    <Icon name="news" color={color} size={30} />
+                    <Icon name="home" color={color} size={30} />
                 ),
             }}
         />
@@ -30,7 +30,7 @@ export default props => (
             component={Cartoes}
             options={{
                 tabBarIcon: ({ color, size }) => (
-                    <Icon name="news" color={color} size={30} />
+                    <Icon name="credit-card" color={color} size={30} />
                 ),
             }}
         />
@@ -48,7 +48,7 @@ export default props => (
             component={Categotias}
             options={{
                 tabBarIcon: ({ color, size }) => (
-                    <Icon name="news" color={color} size={30} />
+                    <Icon name="list" color={color} size={30} />
                 ),
             }}
         />
